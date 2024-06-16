@@ -27,7 +27,7 @@ const Footer = () => {
                         <p className="mb-4">We are a domestic steel construction fastener manufacturer with products in multiple industries including Steel Fabrication, Highway, Marine, Timber Construction, Power  and Energy, Government and Military, Precast Concrete, Light Rail, Mining, Light Pole & Traffic Signal, Pole Line Hardware, and OEM.</p>
                     </div>
                 </div>
-                <div className="col-lg-4 col-md-6">    
+                <div className="col-lg-4 col-md-6 d-flex justify-content-center">    
                         <div className={style.content}>
                         <h4 className="text-light mb-3">Quick Links</h4>
                         <Link href="/about">About Us</Link>
