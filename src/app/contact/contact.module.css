@@ -1,0 +1,25 @@
+.wrapper {
+    background: #f4f6f8;
+    padding: 50px;
+    margin: 50px 0px 50px;
+    border-radius: 20px;
+}
+.text {
+    color: #00719c;
+}
+.btnStyle {
+    background-color: #00719c;
+    color: #fff;
+    border: none;
+    padding: 20px 50px;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+.contactText {
+    display: flex;
+    padding: 20px;
+    background-color: #00719c;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+}

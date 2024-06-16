@@ -1,0 +1,13 @@
+.content a {
+    text-decoration: none;
+    color: rgb(145 146 148);
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footerContent {
+    background-color: #001f2b;
+    color: rgb(145 146 148);
+}

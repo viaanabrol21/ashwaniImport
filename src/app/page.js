@@ -1,77 +1,40 @@
 import Image from "next/image";
+import Link from 'next/link';
 import styles from "./page.module.css";
+import Card from "@/components/cards/Card";
+import CarouselFadeExample from "@/components/carousel/carousel";
+import Machinery from "@/components/machinery/machinery";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <div>
-          hello world
+    <>
+      <div className={styles.hero}>
+      {/* <Image src='/background.jpg' className={styles.bgImg} alt="background" width={1500} height={500} /> */}
+        <div className="container">
+          <div className="row">
+            <div className="col-md-6 d-flex align-items-center justify-content-center">
+              <div className={styles.herotext}>
+                <h1>Ashwani Imports & Exports</h1>
+                <p className="mb-5">where quality meets customization</p>
+                <Link href="/contact" className={styles.heroButton}>Contact Us</Link>
+              </div>
+            </div>
+            <div className="col-md-6">
+              <div className="p-4">
+                <CarouselFadeExample />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+      <div className={styles.textHeading}>
+        <h2>Products</h2>
+        <Card />
       </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+      <div className={styles.textHeading}>
+        <h2>Machinery</h2>
+        <Machinery />
       </div>
-    </main>
+    </>
   );
 }

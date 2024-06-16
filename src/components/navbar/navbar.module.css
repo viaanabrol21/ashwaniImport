@@ -1,0 +1,15 @@
+.bg {
+    background-color: #00415a;
+}
+.navIcons a {
+    color: #fff;
+}
+.dropBg .dropdown-menu {
+    background-color: #00415a; 
+}
+.imgWidth {
+    position: relative !important;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 80px !important;
+}

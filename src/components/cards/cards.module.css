@@ -1,0 +1,22 @@
+.wrapper {
+    border: 5px solid#00719c;
+    border-radius: 20px;
+}
+.top {
+    border-radius: 20px;
+}
+.carousel {
+    display: flex;
+    gap: 1rem;
+    animation: scrollAnimation 20s linear infinite;
+    margin-top: 100px;
+}
+
+@keyframes scrollAnimation {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
