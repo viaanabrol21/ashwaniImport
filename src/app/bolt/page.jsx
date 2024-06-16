@@ -60,8 +60,8 @@ function PartsCards() {
         <div className='container'>
             <div className='row'>
             {parts.map((link=>(
-                <div className='col-md-4'>
-                <parts key={link.id}>
+                <div className='col-md-4' key={link.id}>
+                <parts>
                 <Figure className={styles.wrapper}>
                     <Image src={link.img} width={400} height={300}  />
                     <figcaption className={styles.content}>{link.title}</figcaption>   

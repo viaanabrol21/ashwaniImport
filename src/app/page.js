@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from 'next/link';
 import styles from "./page.module.css";
-import Card from "@/components/cards/Card";
+import CardComponent from "@/components/cards/CardComponent"
 import CarouselFadeExample from "@/components/carousel/carousel";
 import Machinery from "@/components/machinery/machinery";
 
@@ -29,7 +29,7 @@ export default function Home() {
       </div>
       <div className={styles.textHeading}>
         <h2>Products</h2>
-        <Card />
+        <CardComponent />
       </div>
       <div className={styles.textHeading}>
         <h2>Machinery</h2>
