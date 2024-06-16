@@ -4,9 +4,12 @@
 .navIcons a {
     color: #fff;
 }
-.dropBg .dropdown-menu {
+.dropBg div {
     background-color: #00415a; 
 }
 .imgWidth {
     border-radius: 50%;
+}
+.alignment {
+    justify-content: flex-end;
 }

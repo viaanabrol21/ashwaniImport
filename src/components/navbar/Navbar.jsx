@@ -28,10 +28,9 @@ function NavbarComponent() {
                 <Image src='/ashImports-logo.jpeg' width={80} height={80} className={styles.imgWidth} alt='logo' />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
-                <Navbar.Collapse id="navbarScroll">
+                <Navbar.Collapse id="navbarScroll" className={styles.alignment}>
                 <Nav
                     className={styles.navIcons}
-                    style={{ maxHeight: '200px', marginLeft: '30rem' }}
                     navbarScroll
                 >
                     <Nav.Link href="/">Home</Nav.Link>
