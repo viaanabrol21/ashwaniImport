@@ -11,18 +11,21 @@ function PartsCards() {
             title: "Drop Anchor",
             img: "/assets/images/anchor/drop-anchor.png",
             text: "lorem ipsum",
+            alt: "",
         },
         {
           id: "2",
           title: "Sleeve Anchor",
           img: "/assets/images/anchor/sleeve-anchor.png",
           text: "lorem ipsum",
+          alt: "",
         },
         {
           id: "3",
           title: "Wedge Anchor",
           img: "/assets/images/anchor/wedge-anchor.png",
           text: "lorem ipsum",
+          alt: "",
         },
     ]
   return (
@@ -33,7 +36,7 @@ function PartsCards() {
                 <div className='col-md-4' key={link.id}>
                 <parts>
                 <Figure className={styles.wrapper}>
-                    <Image src={link.img} width={400} height={300}  />
+                    <Image src={link.img} width={400} height={300} alt={link.alt} />
                     <figcaption className={styles.content}>{link.title}</figcaption>   
                 </Figure>
                 </parts>

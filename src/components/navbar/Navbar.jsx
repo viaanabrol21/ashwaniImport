@@ -25,7 +25,7 @@ function NavbarComponent() {
         <Navbar expand="lg" className={styles.bg}>
             <Container>
                 <Navbar.Brand href="/">
-                <Image src='/ashImports-logo.jpeg' layout="fill" className={styles.imgWidth} />
+                <Image src='/ashImports-logo.jpeg' width={80} height={80} className={styles.imgWidth} alt='logo' />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">

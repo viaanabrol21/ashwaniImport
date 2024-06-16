@@ -11,18 +11,21 @@ function PartsCards() {
             title: "Blind Rivet",
             img: "/assets/images/rivet/blind-rivet.png",
             text: "",
+            alt: "",
         },
         {
           id: "2",
           title: "Semi Tubular Rivet",
           img: "/assets/images/rivet/semi-tubular-rivet.png",
           text: "",
+          alt: "",
         },
         {
           id: "3",
           title: "Solid Rivet",
           img: "/assets/images/rivet/solid-rivet.png",
           text: "",
+          alt: "",
         },
     ]
   return (
@@ -33,7 +36,7 @@ function PartsCards() {
                 <div className='col-md-4' key={link.id}>
                 <parts>
                 <Figure className={styles.wrapper}>
-                    <Image src={link.img} width={400} height={300}  />
+                    <Image src={link.img} width={400} height={300} alt={link.alt} />
                     <figcaption className={styles.content}>{link.title}</figcaption>   
                 </Figure>
                 </parts>

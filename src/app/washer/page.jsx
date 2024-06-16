@@ -11,30 +11,35 @@ function PartsCards() {
             title: "Contact Washer",
             img: "/assets/images/washer/contact-washer.png",
             text: "",
+            alt: "",
         },
         {
           id: "2",
           title: "Flat Washer",
           img: "/assets/images/washer/flat-washer.png",
           text: "",
+          alt: "",
         },
         {
           id: "3",
           title: "Spring Washer",
           img: "/assets/images/washer/spring-washer.png",
           text: "",
+          alt: "",
         },
         {
           id: "4",
           title: "Square taper Washer",
           img: "/assets/images/washer/square-taper-washer.png",
           text: "",
+          alt: "",
       },
       {
         id: "5",
         title: "Toothed Washer",
         img: "/assets/images/washer/toothed-washer.png",
         text: "",
+        alt: "",
       },
     ]
   return (
@@ -45,7 +50,7 @@ function PartsCards() {
                 <div className='col-md-4' key={link.id}>
                 <parts>
                 <Figure className={styles.wrapper}>
-                    <Image src={link.img} width={400} height={300}  />
+                    <Image src={link.img} width={400} height={300}  alt={link.alt}/>
                     <figcaption className={styles.content}>{link.title}</figcaption>   
                 </Figure>
                 </parts>

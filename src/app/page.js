@@ -2,8 +2,8 @@ import Image from "next/image";
 import Link from 'next/link';
 import styles from "./page.module.css";
 import CardComponent from "@/components/cards/CardComponent"
-import CarouselFadeExample from "@/components/carousel/carousel";
-import Machinery from "@/components/machinery/machinery";
+import CarouselFadeExample from "@/components/carousel/Carousel";
+import Machinery from "@/components/machinery/Machinery";
 
 export default function Home() {
   return (
