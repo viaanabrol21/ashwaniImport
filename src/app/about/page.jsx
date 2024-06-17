@@ -48,7 +48,7 @@ function page() {
   return (
     <>
         <div className=''>
-            <Image src='/bigbolt.jpg' className={styles.imgWidth} layout="fill" alt='about' />
+            {/* <Image src='/bigbolt.jpg' className={styles.imgWidth} layout="fill" alt='about' /> */}
             <div className={styles.centered}>
                 <h2 className='text-white'>About Us</h2>
             </div>
