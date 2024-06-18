@@ -32,7 +32,7 @@ export default function Home() {
         <CardComponent />
       </div>
       <div className={styles.textHeading}>
-        <h2>Machinery</h2>
+        <h2 className="mt-5">Machinery</h2>
         <Machinery />
       </div>
     </>
