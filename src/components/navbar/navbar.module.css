@@ -1,15 +1,40 @@
 .bg {
-    background-color: #00415a;
+    background-color: 	#00719c;
 }
 .navIcons a {
     color: #fff;
 }
 .dropBg div {
-    background-color: #00415a; 
+    background-color: 	#00719c; 
 }
 .imgWidth {
     border-radius: 50%;
 }
 .alignment {
     justify-content: flex-end;
+}
+.topbarContent {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px 0px 40px;
+}
+.topbar {
+    padding: 15px 0px 15px;
+    background-color: #00b8ff;
+    border-radius: 230px 100px;
+}
+.topbar a {
+    text-decoration: none;
+    color: #fff;
+}
+.nHead {
+    background-color: 	#00719c;
+    padding: 0px 40px 0px 40px;
+}
+.bottom a{
+    padding: 5px;
+}
+.top a{
+    padding: 5px;
+    font-size: 14px;
 }

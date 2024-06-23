@@ -8,8 +8,7 @@ import Machinery from "@/components/machinery/Machinery";
 export default function Home() {
   return (
     <>
-      <div className={styles.hero}>
-      {/* <Image src='/background.jpg' className={styles.bgImg} alt="background" width={1500} height={500} /> */}
+      {/* <div className={styles.hero}>
         <div className="container">
           <div className="row">
             <div className="col-md-6 d-flex align-items-center justify-content-center">
@@ -29,7 +28,8 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
+      <CarouselFadeExample />
       <div className={styles.textHeading}>
         <h2>Products</h2>
         <CardComponent />

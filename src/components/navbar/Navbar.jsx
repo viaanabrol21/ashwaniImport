@@ -1,4 +1,5 @@
 'use client'
+import Link from 'next/link';
 import Image from 'next/image';
 import styles from './navbar.module.css'
 import Container from 'react-bootstrap/Container';
@@ -9,19 +10,30 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 function NavbarComponent() {
   return (
     <>
-        {/* <div className={styles.topbar}>
-            <div className="d-flex justify-content-between">
-                <div className={styles.top}>
-                    <small className="me-3"><i className="fas fa-map-marker-alt me-2 text-secondary"></i> <links href="#" className="text-white">123 Street, New York</links></small>
-                    <small className="me-3"><i className="fas fa-envelope me-2 text-secondary"></i><links href="#" className="text-white">Email@Example.com</links></small>
-                </div>
-                <div className={styles.bottom}>
-                    <links href="#" className="text-white"><small className="text-white mx-2">Privacy Policy</small>/</links>
-                    <links href="#" className="text-white"><small className="text-white mx-2">Terms of Use</small>/</links>
-                    <links href="#" className="text-white"><small className="text-white ms-2">Sales and Refunds</small></links>
+        <div className={styles.nHead}>
+            <div className={styles.topbar}>
+                <div className={styles.topbarContent}>
+                    <div className={styles.top}>
+                        <Link href="/contact"><Image src='/assets/social-icons/pin.png' width={30} height={30} alt='stamping' />302 / 4D, Model Town Extension, D Block, Ludhiana 141002</Link>
+                        <Link href="/contact"><Image src='/assets/social-icons/email.png' width={30} height={30} alt='stamping' />ashwaniexports007@gmail.com</Link>
+                    </div>
+                    <div className={styles.bottom}>
+                        <Link href="https://www.facebook.com/ashwaniexports/" target='-blank'>
+                            <Image src='/assets/social-icons/facebook.png' width={30} height={30} alt='stamping' />
+                        </Link>
+                        <Link href="https://in.pinterest.com/ashwaniexports/" target='-blank'>
+                            <Image src='/assets/social-icons/pinterest.png' width={30} height={30} alt='stamping' />
+                        </Link>
+                        <Link href="https://www.linkedin.com/in/ashwani-ashwaniexports-3aaa2716b/?originalSubdomain=qa" target='-blank'>
+                            <Image src='/assets/social-icons/linkedin.png' width={30} height={30} alt='stamping' /> 
+                        </Link>
+                        <Link href="https://www.youtube.com/@ashwaniexports" target='-blank'>
+                            <Image src='/assets/social-icons/network.png' width={30} height={30} alt='stamping' />
+                        </Link>    
+                    </div>
                 </div>
             </div>
-        </div> */}
+        </div>
         <Navbar expand="lg" className={styles.bg}>
             <Container>
                 <Navbar.Brand href="/">

@@ -1,4 +1,39 @@
 .imgWidth {
     position: relative !important;
+    height: 500px !important;
+}
+.cCaption {
+    bottom: 6.25rem;
+    text-align: left;
+} 
+.cWrapper {
+    display: flex;
+    align-items: center;
+}
+.heroButton {
+    background-color: 	#00719c;
+    color: #fff;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.heroButton:hover {
+    background-color: 	#00b8ff;
+    color: #000;
+    border: none;
+}
+.cContent h2 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+.cImage {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: flex-end;
+}
+.cImage img {
     border-radius: 20px;
 }
