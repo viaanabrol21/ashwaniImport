@@ -1,4 +1,4 @@
-.wrapper {
+/* .wrapper {
     border: 1px solid black;
     border-radius: 20px;
 }
@@ -7,4 +7,124 @@
 }
 .imgBorder {
     border-radius: 20px;
+} */
+.machine {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}
+.machineWrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0px 50px;
+    
+}
+
+.machineWrapper .machineCard {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 350px;
+    max-width: 100%;
+    height: 300px;
+    background: white;
+    border-radius: 20px;
+    transition: 0.5s;
+    box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
+}
+
+.machineWrapper .machineCard:hover {
+    height: 400px;
+}
+
+.machineWrapper .machineCard .imgBox {
+    position: absolute;
+    top: 20px;
+    width: 300px;
+    height: 220px;
+    background: #333;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.machineWrapper .machineCard:hover .imgBox {
+    top: -100px;
+    scale: 0.75;
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2);
+}
+
+.machineWrapper .machineCard .imgBox img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.machineWrapper .machineCard .machineContent {
+    position: absolute;
+    top: 252px;
+    width: 100%;
+    height: 35px;
+    padding: 0 30px;
+    text-align: center;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.machineWrapper .machineCard:hover .machineContent {
+    top: 130px;
+    height: 250px;
+}
+
+.machineWrapper .machineCard .machineContent h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--clr);
+}
+
+.machineWrapper .machineCard .machineContent p {
+    color: #333;
+}
+
+.machineWrapper .machineCard .machineContent a {
+    position: relative;
+    top: 15px;
+    display: inline-block;
+    padding: 12px 25px;
+    text-decoration: none;
+    background: var(--clr);
+    color: white;
+    font-weight: 500;
+}
+
+.machineWrapper .machineCard .machineContent a:hover {
+    opacity: 0.8;
+}
+
+@media (max-width: 480px) {
+    .machineWrapper .machineCard {
+        width: 230px;
+        border-radius: 15px;
+    }
+
+    .machineWrapper .machineCard .imgBox {
+        width: 185px;
+        border-radius: 10px;
+    }
+
+    .machineWrapper .machineCard .machineContent p {
+        font-size: 0.8rem;
+    }
+
+    .machineWrapper .machineCard .machineContent a {
+        font-size: 0.9rem;
+    }
 }

@@ -16,7 +16,10 @@ export default function Home() {
               <div className={styles.herotext}>
                 <h1>Ashwani Imports & Exports</h1>
                 <p className="mb-5">where quality meets customization</p>
+                <div className="d-flex gap-4">
                 <Link href="/contact" className={styles.heroButton}>Contact Us</Link>
+                <Link href="/catalouge ashwaniexports.pdf" target="-blank" className={styles.heroButton}>Download Catalog</Link>
+                </div>
               </div>
             </div>
             <div className="col-md-6">
