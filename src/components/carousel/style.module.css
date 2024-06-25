@@ -32,3 +32,6 @@
 .cImage img {
     border-radius: 20px;
 }
+.cItem {
+    transition: transform 2s ease;
+}

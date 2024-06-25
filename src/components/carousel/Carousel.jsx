@@ -7,7 +7,7 @@ import style from './style.module.css'
 function CarouselFadeExample() {
   return (
     <Carousel>
-      <Carousel.Item interval={3000}>
+      <Carousel.Item  className={style.cItem}>
       <Image src='/assets/images/carousel/c1.jpg' layout="fill" className={style.imgWidth} alt='stamping' />
         <Carousel.Caption className={style.cCaption}>
           <div className='row'>
@@ -34,7 +34,7 @@ function CarouselFadeExample() {
           </div> 
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item interval={3000}>
+      <Carousel.Item  className={style.cItem}>
       <Image src='/assets/images/carousel/c2.jpg' layout="fill" className={style.imgWidth} alt='stamping' />
         <Carousel.Caption className={style.cCaption}>
           <div className='row'>
@@ -61,7 +61,7 @@ function CarouselFadeExample() {
           </div> 
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item interval={3000}>
+      <Carousel.Item  className={style.cItem}>
       <Image src='/assets/images/carousel/c1.jpg' layout="fill" className={style.imgWidth} alt='stamping' />
         <Carousel.Caption className={style.cCaption}>
           <div className='row'>
