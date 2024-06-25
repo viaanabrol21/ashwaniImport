@@ -48,7 +48,7 @@ function page() {
   return (
     <>
         <div className=''>
-            {/* <Image src='/bigbolt.jpg' className={styles.imgWidth} layout="fill" alt='about' /> */}
+            <Image src='/assets/images/background/c2.jpg' className={styles.imgWidth} layout="fill" alt='about' />
             <div className={styles.centered}>
                 <h2 className='text-white'>About Us</h2>
             </div>
@@ -81,8 +81,8 @@ function page() {
                         </p>
                         <p>
                         Experience the difference for yourself. Discover Oil and Gas Fasteners – where your needs meet our expertise.
-                        CEO, ASHWANI KUMAR
                         </p>
+                        <strong>CEO, ASHWANI KUMAR</strong>
                     </div>
                 </div>
             </div>

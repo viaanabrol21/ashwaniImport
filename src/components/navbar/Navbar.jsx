@@ -56,6 +56,8 @@ function NavbarComponent() {
                         <NavDropdown.Item href="/washer">Washer</NavDropdown.Item>
                         <NavDropdown.Item href="/anchor">Anchor</NavDropdown.Item>
                         <NavDropdown.Item href="/rivet">Rivet</NavDropdown.Item>
+                        <NavDropdown.Item href="/anchorBolt">Anchor Bolt</NavDropdown.Item>
+                        <NavDropdown.Item href="/studBolt">Stud Bolt</NavDropdown.Item>
                     </NavDropdown>
                     <Nav.Link href="/contact">Contact Us</Nav.Link>
                 </Nav>

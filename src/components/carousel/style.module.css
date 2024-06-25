@@ -6,10 +6,6 @@
     bottom: 6.25rem;
     text-align: left;
 } 
-.cWrapper {
-    display: flex;
-    align-items: center;
-}
 .heroButton {
     background-color: 	#00719c;
     color: #fff;
@@ -25,7 +21,6 @@
     border: none;
 }
 .cContent h2 {
-    font-size: 3rem;
     font-weight: bold;
 }
 .cImage {

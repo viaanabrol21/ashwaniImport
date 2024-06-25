@@ -4,6 +4,7 @@ import styles from "./page.module.css";
 import CardComponent from "@/components/cards/CardComponent"
 import CarouselFadeExample from "@/components/carousel/Carousel";
 import Machinery from "@/components/machinery/Machinery";
+import About from "@/components/about/About";
 
 export default function Home() {
   return (

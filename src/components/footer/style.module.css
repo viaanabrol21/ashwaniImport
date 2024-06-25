@@ -10,3 +10,15 @@
     background-color: #001f2b;
     color: rgb(145 146 148);
 }
+.footerBottom {
+    background-color: #00415a;
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 100px 15px 100px;
+    color: #fff;
+}
+.top a{
+    padding: 10px;
+}

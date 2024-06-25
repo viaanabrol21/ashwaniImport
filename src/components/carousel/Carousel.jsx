@@ -8,18 +8,20 @@ function CarouselFadeExample() {
   return (
     <Carousel>
       <Carousel.Item interval={3000}>
-      <Image src='/assets/images/carousel/0ne.jpg' layout="fill" className={style.imgWidth} alt='stamping' />
+      <Image src='/assets/images/carousel/c1.jpg' layout="fill" className={style.imgWidth} alt='stamping' />
         <Carousel.Caption className={style.cCaption}>
-          <div className={style.cWrapper}>
-            <div className={style.cContent}>
-              <h2>Ashwani Imports & Exports</h2>
-              <p>Where quality meets customization</p>
-              <div className="d-flex gap-2 mt-5">
-                <Link href="/contact" className={style.heroButton}>Contact Us</Link>
-                <Link href="/catalouge ashwaniexports.pdf" target="-blank" className={style.heroButton}>Download Catalog</Link>
+          <div className='row'>
+            <div className='col-md-6 d-flex align-items-center'>
+              <div className={style.cContent}>
+                <h2>Ashwani Imports & Exports</h2>
+                <p>Where quality meets customization</p>
+                <div className="d-flex gap-2 mt-4">
+                  <Link href="/contact" className={style.heroButton}>Contact Us</Link>
+                  <Link href="/catalouge ashwaniexports.pdf" target="-blank" className={style.heroButton}>Download Catalog</Link>
+                </div>
               </div>
             </div>
-            <div className={style.cContent}>             
+            <div className='col-md-6'>
               <div className={style.cImage}>
                 <Image src='/assets/images/anchor/drop-anchor.png' width={150} height={150} alt='stamping' />
                 <Image src='/assets/images/anchor/sleeve-anchor.png' width={150} height={150} alt='stamping' />
@@ -29,22 +31,24 @@ function CarouselFadeExample() {
                 <Image src='/assets/images/rivet/blind-rivet.png' width={150} height={150} alt='stamping' />
               </div>
             </div>
-          </div>
+          </div> 
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={3000}>
-      <Image src='/assets/images/carousel/two.jpg' layout="fill" className={style.imgWidth} alt='stamping' />
+      <Image src='/assets/images/carousel/c2.jpg' layout="fill" className={style.imgWidth} alt='stamping' />
         <Carousel.Caption className={style.cCaption}>
-          <div className={style.cWrapper}>
-            <div className={style.cContent}>
-              <h2>Ashwani Imports & Exports</h2>
-              <p>Where quality meets customization</p>
-              <div className="d-flex gap-2 mt-5">
-                <Link href="/contact" className={style.heroButton}>Contact Us</Link>
-                <Link href="/catalouge ashwaniexports.pdf" target="-blank" className={style.heroButton}>Download Catalog</Link>
+          <div className='row'>
+            <div className='col-md-6 d-flex align-items-center'>
+              <div className={style.cContent}>
+                <h2>Ashwani Imports & Exports</h2>
+                <p>Where quality meets customization</p>
+                <div className="d-flex gap-2 mt-3">
+                  <Link href="/contact" className={style.heroButton}>Contact Us</Link>
+                  <Link href="/catalouge ashwaniexports.pdf" target="-blank" className={style.heroButton}>Download Catalog</Link>
+                </div>
               </div>
             </div>
-            <div className={style.cContent}>             
+            <div className='col-md-6'>
               <div className={style.cImage}>
                 <Image src='/assets/images/stamping-parts/stamping1.png' width={150} height={150} alt='stamping' />
                 <Image src='/assets/images/stamping-parts/stamping2.png' width={150} height={150} alt='stamping' />
@@ -54,22 +58,24 @@ function CarouselFadeExample() {
                 <Image src='/assets/images/stamping-parts/stamping6.png' width={150} height={150} alt='stamping' />
               </div>
             </div>
-          </div>
+          </div> 
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={3000}>
-      <Image src='/assets/images/carousel/0ne.jpg' layout="fill" className={style.imgWidth} alt='stamping' />
+      <Image src='/assets/images/carousel/c1.jpg' layout="fill" className={style.imgWidth} alt='stamping' />
         <Carousel.Caption className={style.cCaption}>
-          <div className={style.cWrapper}>
-            <div className={style.cContent}>
-              <h2>Ashwani Imports & Exports</h2>
-              <p>Where quality meets customization</p>
-              <div className="d-flex gap-2 mt-5">
-                <Link href="/contact" className={style.heroButton}>Contact Us</Link>
-                <Link href="/catalouge ashwaniexports.pdf" target="-blank" className={style.heroButton}>Download Catalog</Link>
+          <div className='row'>
+            <div className='col-md-6 d-flex align-items-center'>
+              <div className={style.cContent}>
+                <h2>Ashwani Imports & Exports</h2>
+                <p>Where quality meets customization</p>
+                <div className="d-flex gap-2 mt-3">
+                  <Link href="/contact" className={style.heroButton}>Contact Us</Link>
+                  <Link href="/catalouge ashwaniexports.pdf" target="-blank" className={style.heroButton}>Download Catalog</Link>
+                </div>
               </div>
             </div>
-            <div className={style.cContent}>             
+            <div className='col-md-6'>
               <div className={style.cImage}>
                 <Image src='/assets/images/matching-parts/ball-lock-pin.png' width={150} height={150} alt='stamping' />
                 <Image src='/assets/images/matching-parts/cam-action.png' width={150} height={150} alt='stamping' />
@@ -79,7 +85,7 @@ function CarouselFadeExample() {
                 <Image src='/assets/images/matching-parts/wire-lock-pin.png' width={150} height={150} alt='stamping' />
               </div>
             </div>
-          </div>
+          </div> 
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
