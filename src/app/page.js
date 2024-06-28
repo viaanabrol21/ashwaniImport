@@ -32,6 +32,7 @@ export default function Home() {
       </div> */}
       <CarouselFadeExample />
       <div className={styles.textHeading}>
+        <About />
         <h2>Products</h2>
         <CardComponent />
       </div>

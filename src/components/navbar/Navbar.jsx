@@ -29,7 +29,13 @@ function NavbarComponent() {
                         </Link>
                         <Link href="https://www.youtube.com/@ashwaniexports" target='-blank'>
                             <Image src='/assets/social-icons/network.png' width={30} height={30} alt='stamping' />
-                        </Link>    
+                        </Link> 
+                        <Link href="https://www.instagram.com/explore/tags/ashwaniexports/" target='-blank'>
+                            <Image src='/assets/social-icons/instagram.png' width={30} height={30} alt='stamping' />
+                        </Link>  
+                        <Link href="https://x.com/ashwaniexports" target='-blank'>
+                            <Image src='/assets/social-icons/twiter.png' width={30} height={30} alt='stamping' />
+                        </Link>     
                     </div>
                 </div>
             </div>
