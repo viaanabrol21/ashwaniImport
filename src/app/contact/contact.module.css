@@ -18,10 +18,33 @@
 .contactText {
     display: flex;
     padding: 20px;
+    align-items: center;
+    gap: 10px;
     background-color: #00719c;
     border-radius: 20px;
     margin-bottom: 20px;
     color: #fff;
+}
+.contactForm input  {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #00719c ;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.contactForm textarea {
+    width: 100%;
+    border: 1px solid #00719c ;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.contactForm placeholder {
+    color: #00719c;
+}
+.contactSuccess {
+    color: green;
 }
 .imgWidth {
     position: relative !important;

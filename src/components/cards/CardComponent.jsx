@@ -109,11 +109,11 @@ function CardComponent() {
           <div className=' overflow-x-auto'>
           <div className={styles.carousel}>
               {cards.map((link=>(
-                <div className='col-md-2 col-12' key={link.id}>
+                <div className='' key={link.id}>
                     <Card className={styles.wrapper}>
                       <Card.Img variant="top" className={styles.top} src={link.img} alt={link.alt}/>
                       <Card.Body>
-                        <Card.Title>{link.title}</Card.Title>
+                        <Card.Title className={styles.title}>{link.title}</Card.Title>
                         <Card.Text>
                           {link.text}
                         </Card.Text>

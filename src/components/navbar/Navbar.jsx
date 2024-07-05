@@ -10,32 +10,34 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 function NavbarComponent() {
   return (
     <>
-        <div className={styles.nHead}>
-            <div className={styles.topbar}>
-                <div className={styles.topbarContent}>
-                    <div className={styles.top}>
-                        <Link href="/contact"><Image src='/assets/social-icons/pin.png' width={30} height={30} alt='stamping' />302 / 4D, Model Town Extension, D Block, Ludhiana 141002</Link>
-                        <Link href="/contact"><Image src='/assets/social-icons/email.png' width={30} height={30} alt='stamping' />ashwaniexports007@gmail.com</Link>
-                    </div>
-                    <div className={styles.bottom}>
-                        <Link href="https://www.facebook.com/ashwaniexports/" target='-blank'>
-                            <Image src='/assets/social-icons/facebook.png' width={30} height={30} alt='stamping' />
-                        </Link>
-                        <Link href="https://in.pinterest.com/ashwaniexports/" target='-blank'>
-                            <Image src='/assets/social-icons/pinterest.png' width={30} height={30} alt='stamping' />
-                        </Link>
-                        <Link href="https://www.linkedin.com/in/ashwani-ashwaniexports-3aaa2716b/?originalSubdomain=qa" target='-blank'>
-                            <Image src='/assets/social-icons/linkedin.png' width={30} height={30} alt='stamping' /> 
-                        </Link>
-                        <Link href="https://www.youtube.com/@ashwaniexports" target='-blank'>
-                            <Image src='/assets/social-icons/network.png' width={30} height={30} alt='stamping' />
-                        </Link> 
-                        <Link href="https://www.instagram.com/explore/tags/ashwaniexports/" target='-blank'>
-                            <Image src='/assets/social-icons/instagram.png' width={30} height={30} alt='stamping' />
-                        </Link>  
-                        <Link href="https://x.com/ashwaniexports" target='-blank'>
-                            <Image src='/assets/social-icons/twiter.png' width={30} height={30} alt='stamping' />
-                        </Link>     
+        <div className='d-none d-sm-none d-md-block'>
+            <div className={styles.nHead}>
+                <div className={styles.topbar}>
+                    <div className={styles.topbarContent}>
+                        <div className={styles.top}>
+                            <Link href="/contact"><Image src='/assets/social-icons/pin.png' width={30} height={30} alt='stamping' />302 / 4D, Model Town Extension, D Block, Ludhiana 141002</Link>
+                            <Link href="/contact"><Image src='/assets/social-icons/email.png' width={30} height={30} alt='stamping' />ashwaniexports007@gmail.com</Link>
+                        </div>
+                        <div className={styles.bottom}>
+                            <Link href="https://www.facebook.com/ashwaniexports/" target='-blank'>
+                                <Image src='/assets/social-icons/facebook.png' width={30} height={30} alt='stamping' />
+                            </Link>
+                            <Link href="https://in.pinterest.com/ashwaniexports/" target='-blank'>
+                                <Image src='/assets/social-icons/pinterest.png' width={30} height={30} alt='stamping' />
+                            </Link>
+                            <Link href="https://www.linkedin.com/in/ashwani-ashwaniexports-3aaa2716b/?originalSubdomain=qa" target='-blank'>
+                                <Image src='/assets/social-icons/linkedin.png' width={30} height={30} alt='stamping' /> 
+                            </Link>
+                            <Link href="https://www.youtube.com/@ashwaniexports" target='-blank'>
+                                <Image src='/assets/social-icons/network.png' width={30} height={30} alt='stamping' />
+                            </Link> 
+                            <Link href="https://www.instagram.com/explore/tags/ashwaniexports/" target='-blank'>
+                                <Image src='/assets/social-icons/instagram.png' width={30} height={30} alt='stamping' />
+                            </Link>  
+                            <Link href="https://x.com/ashwaniexports" target='-blank'>
+                                <Image src='/assets/social-icons/twiter.png' width={30} height={30} alt='stamping' />
+                            </Link>     
+                        </div>
                     </div>
                 </div>
             </div>

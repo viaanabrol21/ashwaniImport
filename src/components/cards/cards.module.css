@@ -4,6 +4,8 @@
 }
 .top {
     border-radius: 20px;
+    width: 200px;
+    height: 200px;
 }
 .carousel {
     display: flex;
