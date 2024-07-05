@@ -216,7 +216,7 @@ export default function Contact() {
                     "Content-Type": "application/json",
                 },    
                 body: JSON.stringify({
-                    access_key: process.env.NEXT_PUBLIC_DATA,
+                    access_key: process.env.NEXT_PRIVATE_DATA,
                     ...formData,
                 }),
             });
