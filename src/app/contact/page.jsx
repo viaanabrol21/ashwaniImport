@@ -334,7 +334,7 @@ export default function Contact() {
                                     <Image src='/assets/social-icons/phone.png' width={30} height={30} alt='stamping' />  
                                 </div>
                                 <div className=''>
-                                    <p className="mb-2">91-81462-74050</p>
+                                    <p className="mb-2">+91-81462-74050</p>
                                     <p>+974-3152-2202</p>
                                 </div>                                
                         </div>
