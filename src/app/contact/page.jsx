@@ -325,8 +325,8 @@ export default function Contact() {
                                 </div>
                                 <div className=''>
                                    
-                                    <p className="mb-2">info@oilandgasfasteners.com</p>
-                                    <p className="mb-2">ashwaniexports007@gmail.com</p>
+                                    <p className="mb-2">Email: info@oilandgasfasteners.com</p>
+                                    <p className="mb-2">Email: ashwaniexports007@gmail.com</p>
                                 </div>                                
                         </div>
                         <div className={styles.contactText}>
