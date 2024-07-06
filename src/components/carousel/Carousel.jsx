@@ -17,7 +17,7 @@ function CarouselFadeExample() {
                 <p>Where quality meets customization</p>
                 <div className="d-flex gap-2 mt-4">
                   <Link href="/contact" className={style.heroButton}>Contact Us</Link>
-                  <Link href="/catalouge ashwaniexports.pdf" target="-blank" className={style.heroButton}>Download Catalog</Link>
+                  <Link href="/catalouge ashwaniexports.pdf" target="-blank" className={style.heroButton}>Download Catalogue</Link>
                 </div>
               </div>
             </div>
@@ -44,7 +44,7 @@ function CarouselFadeExample() {
                 <p>Where quality meets customization</p>
                 <div className="d-flex gap-2 mt-3">
                   <Link href="/contact" className={style.heroButton}>Contact Us</Link>
-                  <Link href="/catalouge ashwaniexports.pdf" target="-blank" className={style.heroButton}>Download Catalog</Link>
+                  <Link href="/catalouge ashwaniexports.pdf" target="-blank" className={style.heroButton}>Download Catalogue</Link>
                 </div>
               </div>
             </div>
@@ -71,7 +71,7 @@ function CarouselFadeExample() {
                 <p>Where quality meets customization</p>
                 <div className="d-flex gap-2 mt-3">
                   <Link href="/contact" className={style.heroButton}>Contact Us</Link>
-                  <Link href="/catalouge ashwaniexports.pdf" target="-blank" className={style.heroButton}>Download Catalog</Link>
+                  <Link href="/catalouge ashwaniexports.pdf" target="-blank" className={style.heroButton}>Download Catalogue</Link>
                 </div>
               </div>
             </div>
