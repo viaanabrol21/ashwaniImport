@@ -11,6 +11,7 @@ export default function Contact() {
        message: '',
    });
    const [formStatus, setFormStatus] = useState('');
+   const [isError, setIsError] = useState(false); // Track if the message is an error
 
    const handleChange = (e) => {
        const { name, value } = e.target;
@@ -45,6 +46,7 @@ export default function Contact() {
            const result = await response.json();
 
            if (result.success) {
+               setIsError(false);
                setFormStatus('Your message was sent successfully!');
                // Clear form fields
                setFormData({
@@ -59,10 +61,30 @@ export default function Contact() {
                    setFormStatus('');
                }, 5000);
            } else {
+               setIsError(true);
                setFormStatus('Failed to send your message. Please try again later.');
+               setFormData({
+                name: '',
+                phone: '',
+                email: '',
+                message: '',
+            });
+               setTimeout(() => {
+                setFormStatus('');
+            }, 5000);
            }
        } catch (error) {
+           setIsError(true);
            setFormStatus('An error occurred. Please try again later.');
+           setFormData({
+            name: '',
+            phone: '',
+            email: '',
+            message: '',
+        });
+           setTimeout(() => {
+            setFormStatus('');
+        }, 5000);
        }
    };
 
@@ -124,7 +146,11 @@ export default function Contact() {
                                    onChange={handleChange}
                                ></textarea>
                            </div>
-                           {formStatus && <p className={styles.contactSuccess}>{formStatus}</p>}
+                           {formStatus && (
+                                <p className={`${isError ? styles.contactError : styles.contactSuccess}`}>
+                                    {formStatus}
+                                </p>
+                            )}
                            <button className={styles.btnStyle} type="submit">Submit Form</button>
                        </form>                      
                    </div>

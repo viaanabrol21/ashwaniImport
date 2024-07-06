@@ -43,9 +43,6 @@
 .contactForm placeholder {
     color: #00719c;
 }
-.contactSuccess {
-    color: green;
-}
 .imgWidth {
     position: relative !important;
     height: 400px !important;
@@ -57,3 +54,11 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
+
+.contactSuccess {
+    color: green;
+}
+
+.contactError {
+    color: red;
+}
