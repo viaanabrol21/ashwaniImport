@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import Image from 'next/image';
 import styles from './style.module.css'
 import { Figure } from 'react-bootstrap';
@@ -29,8 +30,8 @@ function PartsCards() {
         },
         {
           id: "4",
-          title: "Cam Action",
-          img: "/assets/images/matching-parts/cam-action.png",
+          title: "Quick Release Ball Lock Pin with Mounting Lanyard",
+          img: "/assets/images/matching-parts/ball-mounting-lanyard.png",
           text: "",
           alt: "",
       },
@@ -64,15 +65,15 @@ function PartsCards() {
     },
     {
       id: "9",
-      title: "O Type Lockin",
-      img: "/assets/images/matching-parts/o-type-lockpin.png",
+      title: "R Clip Cotter Pin",
+      img: "/assets/images/matching-parts/r-clip-clotter-pin.png",
       text: "",
-      alt: "",
+      alt: "Stainless Steel R Clip Cotter Pin",
     },
     {
       id: "10",
-      title: "Pull Head Indexing",
-      img: "/assets/images/matching-parts/pull-head-indexing.png",
+      title: "Spring Ball Plunger",
+      img: "/assets/images/matching-parts/spring-ball.png",
       text: "",
       alt: "",
     },
@@ -99,8 +100,8 @@ function PartsCards() {
     },
     {
     id: "14",
-    title: "Release ball locking",
-    img: "/assets/images/matching-parts/quickrelease-ball-locking.png",
+    title: "Hex Male Female Threaded Standoffs",
+    img: "/assets/images/matching-parts/male-female-thread.png",
     text: "",
     alt: "",
     },
@@ -113,8 +114,8 @@ function PartsCards() {
     },
     {
     id: "16",
-    title: "Ring Pull",
-    img: "/assets/images/matching-parts/ring-pull.png",
+    title: "Female Threaded Hex Standoffs",
+    img: "/assets/images/matching-parts/female-hex-standoff.png",
     text: "",
     alt: "",
     },
@@ -153,12 +154,12 @@ function PartsCards() {
             <div className='row'>
             {parts.map((link=>(
                 <div className='col-md-4' key={link.id}>
-                <parts>
+                <Link href={`/matching/${link.id}`}>
                 <Figure className={styles.wrapper}>
                     <Image src={link.img} width={400} height={300} alt={link.alt} />
                     <figcaption className={styles.content}>{link.title}</figcaption>   
                 </Figure>
-                </parts>
+                </Link>
                 </div>
                 )))}
             </div>
