@@ -1,0 +1,16 @@
+.imageWrapper {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+.contentWrapper h2{
+    color: #00719c;
+}
+.contentWrapper p{
+    color: #868484;
+}
+.tableWrapper th {
+    background-color: #00719c;
+    color: #fff;   
+}

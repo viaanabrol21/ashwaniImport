@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import Image from 'next/image';
 import styles from './style.module.css'
 import { Figure } from 'react-bootstrap';
@@ -71,14 +72,14 @@ function PartsCards() {
     },
     {
       id: "10",
-      title: "test1",
+      title: "Weld Nut",
       img: "/assets/images/nut/weld-nut.png",
       text: "",
       alt: "",
   },
   {
     id: "11",
-    title: "test2",
+    title: "Wing Nut",
     img: "/assets/images/nut/wing-nut.png",
     text: "",
     alt: "",
@@ -90,12 +91,12 @@ function PartsCards() {
             <div className='row'>
             {parts.map((link=>(
                 <div className='col-md-4' key={link.id}>
-                <parts>
+                <Link href={`/nut/${link.id}`}>
                 <Figure className={styles.wrapper}>
                     <Image src={link.img} width={400} height={300} alt={link.alt} />
                     <figcaption className={styles.content}>{link.title}</figcaption>   
                 </Figure>
-                </parts>
+                </Link>
                 </div>
                 )))}
             </div>
