@@ -12,7 +12,7 @@ function page({ params }) {
       alt: "Anchor Bolts",
       name: "Anchor Bolts",
       dimension: "",
-      surfance: "",
+      surface: "",
       material: "",
       standard: "custom",
       nonStandards: "",
@@ -27,7 +27,7 @@ function page({ params }) {
       alt: "J Anchor Bolt",
       name: "J Anchor Bolt",
       dimension: "",
-      surfance: "",
+      surface: "",
       material: "",
       standard: "custom",
       nonStandards: "",
@@ -42,7 +42,7 @@ function page({ params }) {
       alt: "J-type Anchor",
       name: "J-type Anchor",
       dimension: "",
-      surfance: "",
+      surface: "",
       material: "",
       standard: "custom",
       nonStandards: "",
@@ -57,7 +57,7 @@ function page({ params }) {
       alt: "L-type Anchor",
       name: "L-type Anchor",
       dimension: "",
-      surfance: "",
+      surface: "",
       material: "",
       standard: "custom",
       nonStandards: "",
@@ -103,8 +103,8 @@ function page({ params }) {
                         <td>{anchorBoltDetails.dimension}</td>
                         </tr>
                         <tr>
-                        <th scope="row">Surfance</th>
-                        <td>{anchorBoltDetails.surfance}</td>
+                        <th scope="row">Surface</th>
+                        <td>{anchorBoltDetails.surface}</td>
                         </tr>
                         <tr>
                         <th scope="row">Material</th>
