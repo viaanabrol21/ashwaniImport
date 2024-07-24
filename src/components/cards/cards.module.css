@@ -13,6 +13,9 @@
     animation: scrollAnimation 20s linear infinite;
     margin-top: 100px;
 }
+.carousel a {
+    text-decoration: none;
+}
 
 @keyframes scrollAnimation {
     0% {

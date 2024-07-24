@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import style from './style.module.css'
+import WhatsAppButton from '../watsapp/WhatsAppButton';
 const Footer = () => {
     return (
         <>
@@ -56,6 +57,7 @@ const Footer = () => {
                         <p>© 2024 Ashwani Imports & Exports. All rights reserved.</p>
                     </div>
                     <div className={style.bottom}>
+                        <WhatsAppButton />
                         <Link href="https://www.facebook.com/ashwaniexports/" target='-blank'>
                             <Image src='/assets/social-icons/facebook.png' width={30} height={30} alt='stamping' />
                         </Link>

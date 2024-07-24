@@ -6,6 +6,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import WhatsAppButton from '../watsapp/WhatsAppButton';
 
 function NavbarComponent() {
   return (
@@ -19,6 +20,7 @@ function NavbarComponent() {
                             <Link href="/contact"><Image src='/assets/social-icons/email.png' width={30} height={30} alt='stamping' />ashwaniexports007@gmail.com</Link>
                         </div>
                         <div className={styles.bottom}>
+                            <WhatsAppButton />
                             <Link href="https://www.facebook.com/ashwaniexports/" target='-blank'>
                                 <Image src='/assets/social-icons/facebook.png' width={30} height={30} alt='stamping' />
                             </Link>
