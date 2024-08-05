@@ -8,29 +8,22 @@ function PartsCards() {
 
     const parts = [
         {
-            id: "1",
-            title: "Anchor Bolts",
-            img: "/assets/images/anchor-bolt/bolts.jpeg",
-            text: "",
-            alt: "",
-        },
-        {
-          id: "2",
-          title: "Bolt J",
+          id: "1",
+          title: "Anchor Bolt J",
           img: "/assets/images/anchor-bolt/bolt-j.jpeg",
           text: "",
           alt: "",
         },
         {
-          id: "3",
-          title: "Bolt J Type",
+          id: "2",
+          title: "Anchor Bolt I",
           img: "/assets/images/anchor-bolt/j-type.jpeg",
           text: "",
           alt: "",
         },
         {
-            id: "4",
-            title: "Bolt l",
+            id: "3",
+            title: "Anchor Bolt L",
             img: "/assets/images/anchor-bolt/l-type.jpeg",
             text: "",
             alt: "",
