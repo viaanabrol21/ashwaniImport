@@ -35,7 +35,7 @@ const Footer = () => {
                                 <h4 className="text-light mb-3">Quick Links</h4>
                                 <Link href="/about">About Us</Link>
                                 <Link href="/contact">Contact Us</Link>
-                                <Link href="/privacyPolicy">Privacy Policy</Link>
+                                <Link href="/">Privacy Policy</Link>
                                 <Link href="/matching">Matching Parts</Link>
                                 <Link href="/stamping">Stamping Parts</Link>
                                 </div>
