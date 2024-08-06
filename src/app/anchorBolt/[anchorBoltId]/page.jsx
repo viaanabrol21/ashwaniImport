@@ -22,7 +22,7 @@ function page({ params }) {
     {
       id: "2",
       title: "I-type Anchor Bolt",
-      img: "/assets/images/anchor-bolt/j-type.jpeg",
+      img: "/assets/images/anchor-bolt/I-anchorBolt.jpeg",
       text: "Foundation Anchor Bolts ‘I’ Type are used to connect structural and non-structural elements to concrete. The connection can be made by a variety of different components; anchor bolts or fasteners, steel plates or stiffeners. Anchor bolts transfer different types of load which are tension forces and shear forces.",
       alt: "I-type Anchor",
       name: "I-type Anchor",

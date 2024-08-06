@@ -17,7 +17,7 @@ function PartsCards() {
         {
           id: "2",
           title: "Anchor Bolt I",
-          img: "/assets/images/anchor-bolt/j-type.jpeg",
+          img: "/assets/images/anchor-bolt/I-anchorBolt.jpeg",
           text: "",
           alt: "",
         },
