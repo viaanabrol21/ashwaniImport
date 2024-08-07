@@ -1,0 +1,15 @@
+.wrapper h2 p {
+    margin-bottom: 10px;
+}
+.wrapper {
+    padding: 20px;
+}
+.wrapper h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+.wrapper h1 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+}
