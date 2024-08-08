@@ -122,6 +122,11 @@ function CardComponent() {
   
   return (
         <>
+         <div className={styles.divider}>
+          <div className={styles.dividerSeprator}></div>
+          <span>Products</span>
+        </div>
+        <h2 className='text-center'>Precision in Every Piece, Reliability in Every Turn</h2>
           <div className=' overflow-x-auto'>
           <div className={styles.carousel}>
               {cards.map((link=>(

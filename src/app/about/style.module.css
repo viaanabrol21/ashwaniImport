@@ -1,14 +1,30 @@
 .imgWidth {
-    position: relative !important;
-    height: 400px !important;
-  }
-
+  position: relative;
+  height: 400px;
+}
+.backgroundImage {
+  filter: brightness(40%);
+}  
 .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
+  position: relative;
+  padding: 0 100px;
+}  
+.centered h2 {
+  font-size: 50px;
+}
+.centered p {
+  font-size: 25px;
+}
 .about {
     margin: 90px 0px;
+}
+.divider {
+  padding: 20px 0 20px 0;
+}
+.dividerSeprator {
+  border-top: 2px solid #f77f00; /* This creates the line */
+  width: 40px; /* Full width of the container */
+  position: relative;
+  margin: 0 100px;
+  margin-top: 80px;
 }

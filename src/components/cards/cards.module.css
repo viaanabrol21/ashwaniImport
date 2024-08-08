@@ -25,3 +25,19 @@
         transform: translateX(-100%);
     }
 }
+
+.divider {
+    padding: 20px 0 20px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+.divider span {
+    font-size: 20px;
+    color: #f77f00;
+}
+.dividerSeprator {
+    border-top: 2px solid #f77f00; /* This creates the line */
+    width: 40px; /* Full width of the container */
+}

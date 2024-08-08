@@ -90,15 +90,31 @@ export default function Contact() {
 
    return (
        <>
-           <div className=''>
-               <Image src='/assets/images/background/c2.jpg' className={styles.imgWidth} layout="fill" alt='about' />
+           <div className={styles.imgWidth}>
+               <Image
+                    alt="backgroundImage"
+                    src={'/assets/images/background/bg1.jpg'}
+                    quality={100}
+                    fill
+                    sizes="100vw"
+                    className={styles.backgroundImage}
+                    style={{
+                        objectFit: 'cover',
+                        objectPosition: 'center',
+
+                    }}
+                />
+            <div className={styles.divider}>
+                <div className={styles.dividerSeprator}></div>
+            </div>
                <div className={styles.centered}>
                    <h2 className='text-white'>Contact Us</h2>
-               </div>
-               <div className=''>
-                       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3609.515093623436!2d51.544789400000006!3d25.219570299999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e45cf1dbd104243%3A0xed72b1afa353d690!2sAshwani%20Imports%20%26%20Exports!5e0!3m2!1sen!2sin!4v1719157505162!5m2!1sen!2sin" width="100%" height="450"  loading="lazy"></iframe>
+                   <p className='text-white'>Strong Connections Start Here.</p>
                </div>
            </div>
+           <div className=''>
+                       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3609.515093623436!2d51.544789400000006!3d25.219570299999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e45cf1dbd104243%3A0xed72b1afa353d690!2sAshwani%20Imports%20%26%20Exports!5e0!3m2!1sen!2sin!4v1719157505162!5m2!1sen!2sin" width="100%" height="450"  loading="lazy"></iframe>
+               </div>
            <div className='container mt-5 mb-5'>
                <div className='row align-items-center'>
                    <div className='text-center mt-5 mb-5'>

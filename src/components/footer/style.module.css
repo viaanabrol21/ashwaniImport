@@ -6,9 +6,13 @@
     display: flex;
     flex-direction: column;
 }
+.content a {
+    margin-bottom: 15px;
+}
 .footerContent {
     background-color: #001f2b;
     color: rgb(145 146 148);
+    font-size: 14px;
 }
 .footerBottom {
     background-color: #00415a;
@@ -21,4 +25,14 @@
 }
 .top a{
     padding: 10px;
+}
+.footerItem {
+    line-height: 30px;
+}
+.divider {
+    padding: 20px 0 20px 0;
+}
+.dividerSeprator {
+    border-top: 2px solid #f77f00; /* This creates the line */
+    width: 40px; /* Full width of the container */
 }
