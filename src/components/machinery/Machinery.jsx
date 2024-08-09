@@ -54,7 +54,7 @@ function machinery() {
           <div className={styles.dividerSeprator}></div>
           <span>Machines</span>
         </div>
-        <h2 className='text-center'>Engineering the Future with Reliable Machinery.</h2>
+        <h2 className={styles.textHeading}>Engineering the Future <br /> with Reliable Machinery</h2>
         <div className={styles.machine}>
             {cards.map((link=>(
                 <div className={styles.machineWrapper} key={link.id}>

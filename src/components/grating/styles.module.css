@@ -1,0 +1,23 @@
+.imgWidth {
+    position: relative !important;
+    border-radius: 20px;
+}
+.divider {
+    padding: 20px 0 20px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.divider span {
+    font-size: 20px;
+    color: #f77f00;
+}
+.dividerSeprator {
+    border-top: 2px solid #f77f00; /* This creates the line */
+    width: 40px; /* Full width of the container */
+}
+.textHeading {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 900;
+}

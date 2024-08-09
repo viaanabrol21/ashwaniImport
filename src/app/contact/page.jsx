@@ -175,8 +175,7 @@ export default function Contact() {
                                <div className=''>
                                    <Image src='/assets/social-icons/placeholder.png' width={30} height={30} alt='stamping' />
                                </div>
-                               <div className=''>
-                                   
+                               <div className=''>                                  
                                    <p className="mb-2">Address: 302 / 4D, Model Town Extension, D Block, Ludhiana 141002</p>
                                    <p>Address: VILLA NO 19, ST 407 ZONE 50, Doha, Qatar</p>
                                </div>                               
@@ -186,7 +185,6 @@ export default function Contact() {
                                    <Image src='/assets/social-icons/envelope.png' width={30} height={30} alt='stamping' />
                                </div>
                                <div className=''>
-                                  
                                    <p className="mb-2">Email: info@oilandgasfasteners.com</p>
                                    <p className="mb-2">Email: ashwaniexports007@gmail.com</p>
                                </div>                                

@@ -41,3 +41,8 @@
     border-top: 2px solid #f77f00; /* This creates the line */
     width: 40px; /* Full width of the container */
 }
+.textHeading {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 900;
+}

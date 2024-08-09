@@ -6,6 +6,7 @@ import CarouselFadeExample from "@/components/carousel/Carousel";
 import Machinery from "@/components/machinery/Machinery";
 import About from "@/components/about/About";
 import BackgroundImage from "@/components/backgroundImage/BackgroundImage";
+import Grating from "@/components/grating/Grating";
 
 export default function Home() {
   return (
@@ -13,10 +14,8 @@ export default function Home() {
       <CarouselFadeExample />
         <About />
         <CardComponent />
-        <Machinery />
-      {/* <div className="">
-        <BackgroundImage />
-      </div> */}
+        <Grating />
+        <Machinery />     
     </>
   );
 }

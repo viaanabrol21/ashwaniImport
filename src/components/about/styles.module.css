@@ -2,19 +2,28 @@
     position: relative !important;
     border-radius: 20px;
 }
+.imgIndustry {
+    position: relative !important;
+    border-radius: 20px;
+    height: 400px;
+}
+.imgStaff {
+    position: relative !important;
+    border-radius: 20px;
+}
 .textHeading h2 {
     color: #000;
-    font-size: 2rem;
+    font-size: 2.5rem;
+    font-weight: 900;
 }
 .textHeading {
     text-align: left;
     padding: 0 0 0 40px;
-    color: #868484;
     font-size: 14px;
     font-weight: 600;
 }
-.heroButton a{
-    background-color: 	#00719c;
+.heroButton a {
+    background: linear-gradient(90deg, #c36, #f77f00);
     color: #fff;
     border: none;
     padding: 15px 40px;
@@ -23,8 +32,7 @@
     font-weight: bold;
 }
 .heroButton a:hover {
-    background-color: 	#00b8ff;
-    color: #000;
+    background: linear-gradient(90deg, #f77f00, #c36);
     border: none;
 }
 .ceotext {

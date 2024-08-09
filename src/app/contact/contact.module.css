@@ -8,21 +8,27 @@
     color: #00719c;
 }
 .btnStyle {
-    background-color: #00719c;
+    background: linear-gradient(90deg, #c36, #f77f00);
     color: #fff;
     border: none;
     padding: 20px 50px;
     border-radius: 30px;
     margin-top: 10px;
 }
+.btnStyle:hover {
+    background: linear-gradient(90deg, #f77f00, #c36);
+}
 .contactText {
     display: flex;
     padding: 20px;
     align-items: center;
     gap: 10px;
-    background-color: #00719c;
+    background: linear-gradient(90deg, #00719c, #19b0ec);
     border-radius: 20px;
     margin-bottom: 20px;
+    color: #fff;
+}
+.contactText p {
     color: #fff;
 }
 .contactForm input  {
