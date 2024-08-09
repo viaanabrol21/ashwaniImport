@@ -36,3 +36,8 @@
     border-top: 2px solid #f77f00; /* This creates the line */
     width: 40px; /* Full width of the container */
 }
+@media only screen and (max-width: 600px) {
+    .top {
+        display: inline;
+    }
+}

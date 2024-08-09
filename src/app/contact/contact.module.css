@@ -26,6 +26,7 @@
     background: linear-gradient(90deg, #00719c, #19b0ec);
     border-radius: 20px;
     margin-bottom: 20px;
+    margin-top: 5px;
     color: #fff;
 }
 .contactText p {
@@ -77,7 +78,7 @@
 }
 .divider {
     padding: 20px 0 20px 0;
-  }
+}
   .dividerSeprator {
     border-top: 2px solid #f77f00; /* This creates the line */
     width: 40px; /* Full width of the container */
@@ -85,3 +86,25 @@
     margin: 0 100px;
     margin-top: 80px;
   }
+
+  .dividerN {
+    padding: 20px 0 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.dividerN span {
+    font-size: 20px;
+    color: #f77f00;
+}
+.dividerSepratorN {
+    border-top: 2px solid #f77f00; /* This creates the line */
+    width: 40px; /* Full width of the container */
+}
+.textHeading {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 4rem;
+}

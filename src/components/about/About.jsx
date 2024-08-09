@@ -23,8 +23,8 @@ function About() {
                     </p>
                     <p>Experience the difference for yourself. Discover Oil and Gas Fasteners – where your needs meet our expertise.</p>
                     <p><strong className={styles.ceotext}> CEO, ASHWANI KUMAR</strong></p>
-                    <div className='row mb-5'>
-                        <div className='col-md-7'>
+                    <div className='row mb-4'>
+                        <div className='col-md-7 mb-1'>
                             <Image src='/assets/images/about/about.jpeg' layout="fill" className={styles.imgIndustry} alt='about' />
                         </div>
                         <div className='col-md-5'>
