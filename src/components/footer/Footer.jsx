@@ -21,15 +21,15 @@ const Footer = () => {
                         </div>
                         <div className="col-lg-4 col-md-6 d-flex justify-content-center">    
                                 <div className={style.content}>
-                                <h4 className="text-light mb-3">Quick Links</h4>
-                                <div className={style.divider}>
-                                    <div className={style.dividerSeprator}></div>
-                                </div>
-                                <Link href="/about">About Us</Link>
-                                <Link href="/contact">Contact Us</Link>
-                                <Link href="/privacyPolicy">Privacy Policy</Link>
-                                <Link href="/matching">Matching Parts</Link>
-                                <Link href="/stamping">Stamping Parts</Link>
+                                    <h4 className="text-light mb-3">Quick Links</h4>
+                                    <div className={style.divider}>
+                                        <div className={style.dividerSeprator}></div>
+                                    </div>
+                                    <Link href="/about">About Us</Link>
+                                    <Link href="/contact">Contact Us</Link>
+                                    <Link href="/privacyPolicy">Privacy Policy</Link>
+                                    <Link href="/matching">Matching Parts</Link>
+                                    <Link href="/stamping">Stamping Parts</Link>
                                 </div>
                         </div>
                         <div className="col-lg-4 col-md-6">

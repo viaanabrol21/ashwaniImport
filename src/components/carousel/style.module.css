@@ -35,3 +35,26 @@
 .cItem {
     transition: transform 2s ease;
 }
+
+@media only screen and (max-width: 600px) {
+    .cImage img {
+        height: 80px;
+        width: 80px;
+        padding: 5px;
+    }
+    .heroButton {
+        font-size: 10px;
+        padding: 10px 20px;
+    }
+    .cContent h2 {
+        font-size: 20px;
+    }
+    .cCaption {
+        bottom: 5.25rem;
+        text-align: center;
+        padding: 10px;
+    } 
+    .cImage {
+        display: block;
+    }
+}

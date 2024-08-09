@@ -14,7 +14,7 @@ function CarouselFadeExample() {
             <div className='col-md-6 d-flex align-items-center'>
               <div className={style.cContent}>
                 <h2>Ashwani Imports & Exports</h2>
-                <p>Where quality meets customization</p>
+                <p className='text-white'>Where quality meets customization</p>
                 <div className="d-flex gap-2 mt-4">
                   <Link href="/contact" className={style.heroButton}>Contact Us</Link>
                   <Link href="/catalouge ashwaniexports.pdf" target="-blank" className={style.heroButton}>Download Catalogue</Link>
@@ -41,7 +41,7 @@ function CarouselFadeExample() {
             <div className='col-md-6 d-flex align-items-center'>
               <div className={style.cContent}>
                 <h2>Ashwani Imports & Exports</h2>
-                <p>Where quality meets customization</p>
+                <p className='text-white'>Where quality meets customization</p>
                 <div className="d-flex gap-2 mt-3">
                   <Link href="/contact" className={style.heroButton}>Contact Us</Link>
                   <Link href="/catalouge ashwaniexports.pdf" target="-blank" className={style.heroButton}>Download Catalogue</Link>
@@ -68,7 +68,7 @@ function CarouselFadeExample() {
             <div className='col-md-6 d-flex align-items-center'>
               <div className={style.cContent}>
                 <h2>Ashwani Imports & Exports</h2>
-                <p>Where quality meets customization</p>
+                <p className='text-white'>Where quality meets customization</p>
                 <div className="d-flex gap-2 mt-3">
                   <Link href="/contact" className={style.heroButton}>Contact Us</Link>
                   <Link href="/catalouge ashwaniexports.pdf" target="-blank" className={style.heroButton}>Download Catalogue</Link>
