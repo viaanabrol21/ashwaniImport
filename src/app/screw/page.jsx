@@ -65,7 +65,7 @@ function PartsCards() {
     homeElement="Home"
     separator=">"
     containerClasses="breadcrumbs"
-    listClasses="breadcrumb-item"
+    listClasses=""
     activeClasses="active"
     capitalizeLinks={true}
     />
