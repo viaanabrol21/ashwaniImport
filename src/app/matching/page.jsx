@@ -1,8 +1,10 @@
+'use client'
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import styles from './style.module.css'
 import { Figure } from 'react-bootstrap';
+import Breadcrumb from '@/components/breadcrumb/Breadcrumb';
 
 function PartsCards() {
 
@@ -149,7 +151,16 @@ function PartsCards() {
         },
     ]
   return (
-    <div className={styles.parts_cards}>
+    <>
+      <Breadcrumb
+        homeElement="Home"
+        separator=">"
+        containerClasses="breadcrumbs"
+        listClasses="breadcrumb-item"
+        activeClasses="active"
+        capitalizeLinks={true}
+      />
+      <div className={styles.parts_cards}>
         <div className='container'>
             <div className='row'>
             {parts.map((link=>(
@@ -165,6 +176,8 @@ function PartsCards() {
             </div>
         </div>
     </div>
+    </>
+    
   )
 }
 
