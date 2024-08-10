@@ -175,7 +175,7 @@ function PartsCards() {
                 )))}
             </div>
         </div>
-    </div>
+      </div>
     </>
     
   )

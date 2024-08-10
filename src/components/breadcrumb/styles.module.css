@@ -1,0 +1,16 @@
+.containerClasses {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    background: #bde3f2;
+    font-weight: 700;
+    gap: 10px;
+}
+.containerClasses li {
+    list-style: none;
+    
+}
+.containerClasses li a {
+    text-decoration: none;
+    color: #00415a;
+}

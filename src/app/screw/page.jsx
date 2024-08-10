@@ -1,3 +1,5 @@
+'use client'
+import Breadcrumb from '@/components/breadcrumb/Breadcrumb';
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -58,6 +60,15 @@ function PartsCards() {
       },
     ]
   return (
+    <>
+    <Breadcrumb
+    homeElement="Home"
+    separator=">"
+    containerClasses="breadcrumbs"
+    listClasses="breadcrumb-item"
+    activeClasses="active"
+    capitalizeLinks={true}
+    />
     <div className={styles.parts_cards}>
         <div className='container'>
             <div className='row'>
@@ -74,6 +85,7 @@ function PartsCards() {
             </div>
         </div>
     </div>
+  </>  
   )
 }
 

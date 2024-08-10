@@ -1,6 +1,7 @@
 import React, { ReactNode } from 'react';
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
+import styles from './styles.module.css';
   
   const Breadcrumb = ({
     homeElement,
@@ -15,7 +16,7 @@ import Link from 'next/link';
   
     return (
       <div>
-        <ul className={containerClasses}>
+        <ul className={styles.containerClasses}>
           <li className={listClasses}>
             <Link href={'/'}>{homeElement}</Link>
           </li>

@@ -1,6 +1,8 @@
+'use client'
 import React from 'react'
 import Image from 'next/image';
 import styles from './styles.module.css'
+import Breadcrumb from '@/components/breadcrumb/Breadcrumb';
 
 function page({ params }) {
   const anchorBolt = [
@@ -60,6 +62,14 @@ function page({ params }) {
 
   return (
     <>
+      <Breadcrumb
+        homeElement="Home"
+        separator=">"
+        containerClasses="breadcrumbs"
+        listClasses="breadcrumb-item"
+        activeClasses="active"
+        capitalizeLinks={true}
+      />
       <div className='container'>
           <div className='row align-items-center' key={anchorBoltDetails.id}>
             <div className='col-md-4'>

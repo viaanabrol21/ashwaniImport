@@ -1,3 +1,5 @@
+'use client'
+import Breadcrumb from '@/components/breadcrumb/Breadcrumb';
 import React from 'react'
 import Image from 'next/image';
 import styles from './styles.module.css'
@@ -171,6 +173,14 @@ function page({ params }) {
 
   return (
     <>
+       <Breadcrumb
+        homeElement="Home"
+        separator=">"
+        containerClasses="breadcrumbs"
+        listClasses="breadcrumb-item"
+        activeClasses="active"
+        capitalizeLinks={true}
+      />
       <div className='container'>
           <div className='row align-items-center' key={stampingDetails.id}>
             <div className='col-md-4'>
