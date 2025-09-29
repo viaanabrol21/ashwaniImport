@@ -44,7 +44,7 @@ function About() {
                         </div>
                     </div>
                     <div className={styles.heroButton}>
-                        <Link href="/about">Read More</Link>
+                        <Link href="/about">READ MORE</Link>
                     </div>
                 </div>
             </div>
